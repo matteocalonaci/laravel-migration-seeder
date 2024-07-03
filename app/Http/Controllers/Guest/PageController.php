@@ -12,6 +12,7 @@ class PageController extends Controller
     {
         $trains = Train::all();
         $data = [
+
             "trains" => $trains
         ];
         return view('trains', $data);

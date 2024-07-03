@@ -19,5 +19,5 @@ Route::get('/', function () {
     return view('home', $dati);
 })->name("home");
 
-Route::get('/train', [PageController::class, "train"])->name("train");
+Route::get('/trains', [PageController::class, "train"])->name("trains");
 

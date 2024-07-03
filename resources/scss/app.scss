@@ -1,3 +1,4 @@
+
 @import "~bootstrap/scss/bootstrap";
 
 body {
@@ -10,4 +11,23 @@ body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+
+.links{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+a {
+    color: cyan;
+    padding: 0.3rem;
+    text-decoration: none;
+    background-color: rgba(152, 126, 255, 0.356);
+    border-radius: 5rem;
+}
+
+.myBg {
+    color: rgba(152, 126, 255, 0.356);
 }
